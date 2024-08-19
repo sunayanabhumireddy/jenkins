@@ -1,6 +1,21 @@
-FILE1
-FULRKP
-F;LKGJKLJ
-R3WKJRG
+pipeline {
+    agent any
 
-
+    stages {
+        stage('Hello0') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Hello1') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Hello2') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
